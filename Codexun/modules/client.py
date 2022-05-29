@@ -599,14 +599,14 @@ async def cbtuto(_, query: CallbackQuery):
 
 Good news! Now you can allow to make your own music bot like to this one. You will be get repo link below just click on it and follow steps!
 
-If you didn't know how to make your own bot then contact us at @TeamCodexun and get help from us.
+If you didn't know how to make your own bot then contact us at @TgShadow_fighter and get help from us.
 
-**🔗 Repo Link : https://github.com/PavanMagar/CodexunMusicBot**
+**🔗 Repo Link : https://telegra.ph/file/9b0455dae14d5639f936d.mp4 **
 
 **Thanks !""",
        reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton("Get Repo 📦", url=f"https://github.com/PavanMagar/CodexunMusicBot")
+                    InlineKeyboardButton("Get Repo 📦", url=f"https://telegra.ph/file/9b0455dae14d5639f936d.mp4")
                 ],
               [InlineKeyboardButton("🔙  Back Home", callback_data="cbabout")]]
         ),
