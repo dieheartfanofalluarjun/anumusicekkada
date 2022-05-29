@@ -1,9 +1,9 @@
 {
-    "name": "CodexunMusicBot",
-    "description": "Telegram Music Bot from Team Codexun allows you to stream music trought the telegram voice chat feature.",
+    "name": "shadowMusicBot",
+    "description": "Telegram Music Bot from Team shadow allows you to stream music trought the telegram voice chat feature.",
    "logo": "https://telegra.ph/file/7c8fc17112d22814da2e9.jpg",
     "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
-    "repository": "https://github.com/blackcat097/CodexunMusic",
+    "repository": "https://github.com/blackcat097/teamshadow",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
