@@ -7,14 +7,10 @@
 
 
 
-<p align="center"><a href="https://t.me/codexun"><img src="https://telegra.ph/file/5a49680de5759f290ad8d.jpg"></a></p>
-<p align="center">
 
 <p align="center">
     <br><b>Kangers Welcome You!</b><br>
 </p>
-
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=PavanMagar&repo=CodexunMusicBot&theme=dark)
 
 
 <h3>
@@ -69,7 +65,9 @@ If you didn't know how to do this
 Then simply contact us at support group.
 # suggesting to select Europe server for lag-free music.
 ```
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/blackcat097/CodexunMusicBot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>  
+<p align="center"><a href="https://heroku.com/deploy?template=https://githubblackcat097
+/
+teamshadow.com/"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>  
 <p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=UGF2YW5NYWdhci9Db2RleHVuTXVzaWNCb3QgbWFpbg"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
 
