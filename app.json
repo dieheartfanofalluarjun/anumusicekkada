@@ -67,7 +67,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "If you don't know this, Leave it as is or in /skip",
-            "value": "https://github.com/PavanMagar/CodexunMusicBot",
+            "value": "https://github.com/blackcat097/teamshadow",
             "required": true
         },
         "UPSTREAM_BRANCH": {
