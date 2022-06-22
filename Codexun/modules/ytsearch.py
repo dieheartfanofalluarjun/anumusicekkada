@@ -26,14 +26,14 @@ async def ytsearch(_, message: Message):
             await message.reply_text("`/search <keyword>` or `/yts <keyword>`")
             return
         query = message.text.split(None, 1)[1]
-        m = await message.reply_text("Searching....")
+        m = await message.reply_text("sᴇᴀʀᴄʜɪɴɢ....")
         results = YoutubeSearch(query, max_results=7).to_dict()
         text = ""
         for i in range(4):
-            text += f"❂ **Title** - [{results[i]['title']}](https://youtube.com{results[i]['url_suffix']})\n"
-            text += f"❂ **Duration** - {results[i]['duration']}\n"
-            text += f"❂ **Views** - {results[i]['views']}\n"
-            text += f"❂ **Channel** - {results[i]['channel']}\n\n"
+            text += f"❂ **ᴛɪᴛʟᴇ** - [{results[i]['title']}](https://youtube.com{results[i]['url_suffix']})\n"
+            text += f"❂ **ᴅᴜʀᴀᴛɪᴏɴ** - {results[i]['duration']}\n"
+            text += f"❂ **ᴠɪᴇᴡs** - {results[i]['views']}\n"
+            text += f"❂ **ᴄʜᴀɴɴᴇʟ** - {results[i]['channel']}\n\n"
         await m.edit(text, disable_web_page_preview=True)
     except Exception as e:
         await message.reply_text(str(e))
