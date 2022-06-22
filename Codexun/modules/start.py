@@ -15,29 +15,25 @@ from Codexun.config import START_IMG
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**Welcome {message.from_user.mention()}** 👋
+        caption=f"""**👋🏻 ʜᴇʟʟᴏ ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()}**
 
-This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** a bot for playing high quality and unbreakable music in your groups voice chat.
+💞 **ᴍʏ ɴᴀᴍᴇ ɪs**[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** **ᴀ ʙᴏᴛ ғᴏʀ ᴘʟᴀʏɪɴɢ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.*"
 
-Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
+**ɴᴏᴡ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ɢᴜʏs [ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴀᴅᴅ](https://t.me/All_india_musicbot?startgroup=true) ᴡɪᴛʜᴏᴜᴛ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ ᴅᴇᴘʟᴏʏᴇᴅ ɪɴ ʜᴇʀᴏᴋᴜ sᴇʀᴠᴇʀ.**
 
-Use the given buttons for more info📍""",
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "Commands", callback_data="cbcmnds"),
-                    InlineKeyboardButton(
-                        "About", callback_data="cbabout")
-                ],
-                [
-                    InlineKeyboardButton(
-                        "Basic Guide", callback_data="cbguide")
-                ],
-                [
-                    InlineKeyboardButton(
-                        "✚ Add Bot in Your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-                ]
-           ]
-        ),
-    )
+**ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 📚**""",
+    reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton("📚ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmnds"), 
+            ],[
+            InlineKeyboardButton("$ᴅᴏɴᴀᴛᴇ", url="https://t.me/dieheartfanofalluarjun"), 
+            ],[
+            InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url="https://t.me/all_india_telugu_coders"), 
+            InlineKeyboardButton("📡ᴄʜᴀɴɴᴇʟ", url="https://t.me/all_india_telugu_coders1"), 
+            ],[
+            InlineKeyboardButton("😏ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbguide"), 
+            InlineKeyboardButton("🤔ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="cbabout"),
+            ],[
+            InlineKeyboardButton("✚ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            ]]
+            ) 
+        ) 
