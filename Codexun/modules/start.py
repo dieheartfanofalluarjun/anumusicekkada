@@ -25,13 +25,11 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmnds"), 
             ],[
-            InlineKeyboardButton("$ᴅᴏɴᴀᴛᴇ", url="https://t.me/dieheartfanofalluarjun"), 
-            ],[
-            InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url="https://t.me/all_india_telugu_coders"), 
-            InlineKeyboardButton("📡ᴄʜᴀɴɴᴇʟ", url="https://t.me/all_india_telugu_coders1"), 
+            InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url="https://t.me/{}"), 
+            InlineKeyboardButton("📡ᴄʜᴀɴɴᴇʟ", url="https://t.me/{}"), 
             ],[
             InlineKeyboardButton("😏ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbguide"), 
-            InlineKeyboardButton("🤔ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="cbabout"),
+            InlineKeyboardButton("🙄ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="cbabout"),
             ],[
             InlineKeyboardButton("✚ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ]]
