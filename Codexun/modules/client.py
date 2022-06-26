@@ -622,26 +622,19 @@ This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) bot,** a bot for playing
 Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
 
 Use the given buttons for more 📍""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "Commands", callback_data="cbcmnds"),
-                    InlineKeyboardButton(
-                        "About", callback_data="cbabout")
-                ],
-                [
-                    InlineKeyboardButton(
-                        "Basic Guide", callback_data="cbguide")
-                ],
-                [
-                    InlineKeyboardButton(
-                        "✚ Add Bot in Your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-                ]
-                
-           ]
-        ),
-    )
+        reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton("📚ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmnds"), 
+            ],[
+            InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"), 
+            InlineKeyboardButton("📡ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATE}"), 
+            ],[
+            InlineKeyboardButton("😏ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbguide"), 
+            InlineKeyboardButton("🙄ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="cbabout"),
+            ],[
+            InlineKeyboardButton("✚ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            ]]
+            ) 
+        ) 
 
 @Client.on_callback_query(filters.regex(pattern=r"^(cls)$"))
 async def closed(_, query: CallbackQuery):
@@ -860,10 +853,10 @@ async def nonabout(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
               [
-                    InlineKeyboardButton("Support 🚶", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("Updates 🤖", url=f"https://t.me/{UPDATE}")
+                    InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"),
+                    InlineKeyboardButton("📡ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/{UPDATE}")
                 ],
-              [InlineKeyboardButton("🔙  Back Menu", callback_data="cbmenu")]]
+              [InlineKeyboardButton("◁", callback_data="cbmenu")]]
         ),
     )
 
