@@ -8,5 +8,5 @@ from Codexun.config import (
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"Hey 👋 I am the assistant of music bot, didn't have a time to talk with you 🙂 kindly join @TgShadow_fighter for getting support\n\nPowered by @TgShadow_fighter")
+  await USER.send_message(message.chat.id,f"ʜᴇʏ 👋 ɪ ᴀᴍ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ, ᴅɪᴅɴ'ᴛ ʜᴀᴠᴇ ᴀ ᴛɪᴍᴇ ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ʏᴏᴜ 🙂 ᴋɪɴᴅʟʏ ᴊᴏɪɴ @{UPDATE} ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴜᴘᴘᴏʀᴛ\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ @{SUPPORT}")
   return
