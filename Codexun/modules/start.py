@@ -10,6 +10,8 @@ from Codexun import BOT_NAME, BOT_USERNAME
 from Codexun.config import BOT_USERNAME 
 from Codexun.config import BOT_NAME
 from Codexun.config import START_IMG
+from Codexun.config import UPDATE
+from Codexun.config import SUPPORT
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
