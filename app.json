@@ -1,9 +1,9 @@
 {
-    "name": "shadowMusicBot",
+    "name": "AnuMusicBot",
     "description": "Telegram Music Bot from Team shadow allows you to stream music trought the telegram voice chat feature.",
    "logo": "https://telegra.ph/file/7c8fc17112d22814da2e9.jpg",
     "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
-    "repository": "https://github.com/blackcat097/teamshadow",
+    "repository": "https://github.com/dieheartfanofalluarjun/anumusicekkada",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
