@@ -18,7 +18,7 @@ async def start_(client: Client, message: Message):
         photo=f"{START_IMG}",
         caption=f"""**👋🏻 ʜᴇʟʟᴏ ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()}**
 
-💞 **ᴍʏ ɴᴀᴍᴇ ɪs**[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** **ᴀ ʙᴏᴛ ғᴏʀ ᴘʟᴀʏɪɴɢ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.*"
+💞 **ᴍʏ ɴᴀᴍᴇ ɪs**[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** **ᴀ ʙᴏᴛ ғᴏʀ ᴘʟᴀʏɪɴɢ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.**"
 
 **ɴᴏᴡ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ɢᴜʏs [ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴀᴅᴅ](https://t.me/{BOT_USERNAME}?startgroup=true) ᴡɪᴛʜᴏᴜᴛ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ ᴅᴇᴘʟᴏʏᴇᴅ ɪɴ ʜᴇʀᴏᴋᴜ sᴇʀᴠᴇʀ.**
 
