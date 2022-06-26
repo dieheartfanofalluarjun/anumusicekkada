@@ -25,8 +25,8 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmnds"), 
             ],[
-            InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url="https://t.me/{}"), 
-            InlineKeyboardButton("📡ᴄʜᴀɴɴᴇʟ", url="https://t.me/{}"), 
+            InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"), 
+            InlineKeyboardButton("📡ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATE}"), 
             ],[
             InlineKeyboardButton("😏ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbguide"), 
             InlineKeyboardButton("🙄ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="cbabout"),
