@@ -615,13 +615,13 @@ If you didn't know how to make your own bot then contact us at @TgShadow_fighter
 @Client.on_callback_query(filters.regex("cbhome"))
 async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})** 👋
+        f"""**👋🏻 ʜᴇʟʟᴏ ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()}**
 
-This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) bot,** a bot for playing high quality and unbreakable music in your groups voice chat.
+💞 **ᴍʏ ɴᴀᴍᴇ ɪs**[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** **ᴀ ʙᴏᴛ ғᴏʀ ᴘʟᴀʏɪɴɢ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.*"
 
-Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
+**ɴᴏᴡ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ɢᴜʏs [ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴀᴅᴅ](https://t.me/{BOT_USERNAME}?startgroup=true) ᴡɪᴛʜᴏᴜᴛ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ ᴅᴇᴘʟᴏʏᴇᴅ ɪɴ ʜᴇʀᴏᴋᴜ sᴇʀᴠᴇʀ.**
 
-Use the given buttons for more 📍""",
+**ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 📚**""",
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmnds"), 
             ],[
