@@ -1,8 +1,8 @@
 
-<h2 align="centre">shadow Music Bot</h2>
+<h2 align="centre">**ANU MUSIC**</h2>
 
 <p align="center">
-    <br><b>Telegram music bot which can helps to play music on groups voice chat.</b><br>
+    <br><b>**Telegram music bot which can helps to play music on groups voice chat.**</b><br>
 </p>
 
 
@@ -70,7 +70,7 @@ Then simply contact us at support group.
 
 ## Get Support
 
-<a href="https://t.me/TeamCodexun"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/codexun"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/all_india_federation"><img src="https://img.shields.io/badge/Join-Group%20Support-pink.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/all_india_federation0"><img src="https://img.shields.io/badge/Join-Updates%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 ## Credits
