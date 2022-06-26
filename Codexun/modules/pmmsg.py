@@ -4,6 +4,8 @@ from pyrogram import filters
 from pyrogram.types import Chat, Message, User
 from Codexun.config import (
     BOT_USERNAME,
+    UPDATE, 
+    SUPPORT, 
 )
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
