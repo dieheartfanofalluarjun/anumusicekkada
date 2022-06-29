@@ -44,8 +44,8 @@ async def load_start():
             pass
     await app.send_message(OWNER_ID, "5365105041")
     # If you change it then bot will be crash © copyrighted area
-    await client.join_chat("telugucoders")
-    await client.join_chat("tgshadow_fighters")
+    await client.join_chat("all_india_mafia_coders")
+    await client.join_chat("all_india_mafia_coders1")
     print("[INFO]: STARTED")
     
 
